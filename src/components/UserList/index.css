@@ -1,0 +1,38 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #ddd;
+    margin: 8px 0;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    margin-right: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:last-child {
+    background-color: #dc3545;
+  }
+  
+  button:last-child:hover {
+    background-color: #c82333;
+  }
+
+p {
+    font-weight: bold;
+}
